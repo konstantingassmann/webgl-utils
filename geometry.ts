@@ -8,7 +8,15 @@ type TPlane = {
   subY?: number;
 };
 
-export const plane = ({ x, y, z, width, height, subX = 1, subY = 1 }: TPlane) => {
+export const plane = ({
+  x,
+  y,
+  z,
+  width,
+  height,
+  subX = 1,
+  subY = 1,
+}: TPlane) => {
   const stepX = width / subX;
   const stepY = height / subY;
 
