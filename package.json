@@ -1,7 +1,7 @@
 {
   "name": "webgl-utils",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "geometry.js",
   "author": "Konstantin Gassmann",
   "license": "MIT",
   "devDependencies": {
