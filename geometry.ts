@@ -1,4 +1,4 @@
-type TRect = {
+type TPlane = {
   x: number;
   y: number;
   z: number;
@@ -8,7 +8,7 @@ type TRect = {
   subY?: number;
 };
 
-export const rect = ({ x, y, z, width, height, subX = 1, subY = 1 }: TRect) => {
+export const plane = ({ x, y, z, width, height, subX = 1, subY = 1 }: TPlane) => {
   const stepX = width / subX;
   const stepY = height / subY;
 
